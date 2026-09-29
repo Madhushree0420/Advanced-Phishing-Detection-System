@@ -100,3 +100,23 @@ http://127.0.0.1:5000
 - **Backend**: Python, [Flask](https://flask.palletsprojects.com/)
 - **OCR / Vision**: [EasyOCR](https://github.com/JaidedAI/EasyOCR), PyTorch
 - **Frontend**: HTML5, CSS3, Jinja2 Templates
+
+## Result for Not safe example
+
+https://github.com/user-attachments/assets/91cb45f7-f662-42ed-87a7-5818f7391ad0
+
+## Result for safe example
+
+https://github.com/user-attachments/assets/1a31b59d-ac23-4b4c-bff9-1f833c4e9658
+
+## 👩‍💻 Author
+
+**Madhushree S.**
+
+---
+
+## 📄 License
+
+MIT License
+
+---
