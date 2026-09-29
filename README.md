@@ -1,4 +1,5 @@
-# Advanced-Phishing-Detection-System
+# 🛡️ Advanced GenAI Phishing Detection System
+
 A Flask-based intelligent Phishing Detection application that analyzes SMS messages, URLs, sender profiles, and uploaded screenshot images (via OCR) to detect social engineering and phishing attacks.
 
 ---
@@ -7,7 +8,7 @@ A Flask-based intelligent Phishing Detection application that analyzes SMS messa
 
 - **Multi-Modal Threat Detection**:
   - **Text Analysis**: Identifies fear/urgency keywords, OTP lures, and KYC verification scams.
-  - **OCR Integration**: Extracts and analyzes text from uploaded screenshot images using [EasyOCR].
+  - **OCR Integration**: Extracts and analyzes text from uploaded screenshot images using [EasyOCR](https://github.com/JaidedAI/EasyOCR).
   - **Domain Verification**: Validates URLs against official whitelisted domains to identify domain mismatches and spoofing attempts.
   - **Impersonation Checking**: Flags brand and bank impersonation attempts (e.g., SBI, HDFC, ICICI).
 - **Explainable AI Scoring**:
@@ -99,16 +100,3 @@ http://127.0.0.1:5000
 - **Backend**: Python, [Flask](https://flask.palletsprojects.com/)
 - **OCR / Vision**: [EasyOCR](https://github.com/JaidedAI/EasyOCR), PyTorch
 - **Frontend**: HTML5, CSS3, Jinja2 Templates
-
-  ## 👩‍💻 Author
-
-**Madhushree S.**
-
----
-
-## 📄 License
-
-MIT License
-
----
-

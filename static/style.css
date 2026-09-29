@@ -1,0 +1,143 @@
+/* ===== Global ===== */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #667eea, #764ba2);
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Header ===== */
+.header {
+    background: #1e3c72;
+    color: white;
+    padding: 25px;
+    text-align: center;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+/* ===== Layout ===== */
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.card {
+    background: white;
+    width: 80%;
+    max-width: 900px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* ===== Form Inputs ===== */
+label {
+    font-weight: bold;
+    margin-top: 12px;
+    display: block;
+}
+
+textarea,
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+/* ===== Buttons ===== */
+button {
+    background: #1e3c72;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #2a5298;
+}
+
+/* ===== Result Section ===== */
+.result-box {
+    margin-top: 25px;
+    background: #f4f6f8;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.result-box h2 {
+    margin-top: 0;
+}
+
+/* ===== Progress Bar (FIXED ISSUE) ===== */
+.progress-container {
+    width: 100%;
+    height: 18px;
+    background: #e0e0e0;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 12px 0 20px 0;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    transition: width 0.6s ease-in-out;
+    border-radius: 20px;
+}
+
+/* ===== Risk Colors ===== */
+.low-risk {
+    background: linear-gradient(to right, #4caf50, #8bc34a);
+}
+
+.medium-risk {
+    background: linear-gradient(to right, #ff9800, #ffc107);
+}
+
+.high-risk {
+    background: linear-gradient(to right, #f44336, #d32f2f);
+}
+
+/* ===== Lists ===== */
+ul {
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 6px;
+}
+
+/* ===== Section Cards ===== */
+.section {
+    margin-top: 20px;
+    background: #eef4ff;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+/* ===== Modal (Optional) ===== */
+.modal {
+    display: none;
+    background: #fff;
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.modal.show {
+    display: block;
+}
